@@ -10,7 +10,7 @@ import 'dotenv/config'
 const app = express()
 
 //middleware
-const allowedOrigins = ['http://localhost:5173','http://localhost:5174']
+const allowedOrigins = ['http://localhost:5173','http://localhost:5174','https://food-app-frontend-p16s.onrender.com']
 app.use(express.json())
 app.use(cors({origin:allowedOrigins,credentials:true}))
 
