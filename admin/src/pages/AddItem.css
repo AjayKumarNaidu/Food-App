@@ -1,0 +1,24 @@
+.additem{
+  margin-left: 250px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form > input{
+  height: 40px;
+  font-size: medium;
+}
+
+.form > button{
+  height: 40px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}

@@ -1,0 +1,29 @@
+.allitems{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 90px;
+}
+
+.item{
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF2AF;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 0px ;
+  border-radius: 10px;
+}
+
+.item > img{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.delete{
+  cursor: pointer;
+}

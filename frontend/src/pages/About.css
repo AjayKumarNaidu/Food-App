@@ -1,0 +1,31 @@
+.about{
+  width: 100%;
+  background-color: rgb(195, 201, 203);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading{
+  color: tomato;
+  margin: 10px;
+}
+
+.about > p{
+  margin: 10px;
+}
+
+.about-icons{
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.about-icons > i{
+  font-size: 1.8rem;
+}
+
+.about-icons > i:hover{
+  cursor: pointer;
+}

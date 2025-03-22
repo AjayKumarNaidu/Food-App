@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Playwrite+PE:wght@100..400&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  margin: 20px;
+  height: 100%;
+}
+
+@keyframes smoothMove {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

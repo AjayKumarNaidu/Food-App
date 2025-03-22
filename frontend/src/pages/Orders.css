@@ -1,0 +1,22 @@
+.orders{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.orders > h2{
+  text-align: center;
+}
+
+.order{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+  border: 3px solid tomato;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.status{
+  font-weight: bold;
+}
