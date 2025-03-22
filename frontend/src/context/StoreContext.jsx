@@ -4,7 +4,7 @@ export const StoreContext = createContext()
 
 export const StoreContextProvider = (props)=>{
 
-  const url = 'http://localhost:4000'
+  const url = 'https://food-app-te4m.onrender.com'
 
   const [foodData1,setFoodData1] = useState([])
 
