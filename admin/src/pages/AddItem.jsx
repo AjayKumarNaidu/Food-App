@@ -13,7 +13,7 @@ const AddItem = () => {
   const [image,setImage] = useState('')
   const [category,setCategory] = useState('')
 
-  const url = 'http://localhost:4000'
+  const url = 'https://food-app-te4m.onrender.com'
 
   const handleSubmit = async(event)=>{
     event.preventDefault()
